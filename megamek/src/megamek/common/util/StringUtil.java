@@ -248,7 +248,7 @@ public class StringUtil {
                 break;
             }
 
-            // find the last space in the range of [0-length]
+            // find the last space in the range of [0-length)
             int lastBreak = in.lastIndexOf(' ', length);
             if (lastBreak == -1) {
                 // We're in the middle of a word longer than the line length.
